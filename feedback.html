@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Feedback form</title>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Workshop feedback </h2>
+        <form id="form1" action="">
+
+            <label>Name:</label><br>
+            <input  id="name1" type="text" placeholder="name" required><br>
+
+            <label>Email id:</label><br>
+            <input type="email" placeholder="email" required><br>
+
+            <labe>Phone Number:</label><br>
+                <input type="text" placeholder="phone number" required><br>
+
+                <label>College Name:</label><br>
+                <input type="text" placeholder="college name"><br>
+
+                <label for="country">Profession</label>
+                <select name="Profession">
+                    <option value="Student">Student</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Professional">Professional </option>
+                    <option value="Other">Other </option>
+                </select>
+
+                Would you recommend the workshop ?<br>
+                <input type="radio" name="recommend" id="r1">
+                <label>Yes</label><br>
+                <input type="radio" name="recommend" id="r2">
+                <label>No</label><br>
+                <input type="radio" name="recommend" id="r3">
+                <label>Maybe</label><br><br>
+
+                <label for="subject">Feedback</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:90px"></textarea>
+
+                <input type="submit" id="submi" value="Submit">
+        </form>
+    </div>
+
+   
+</body>
+
+</html>
